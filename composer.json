@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/tiny_poodll",
+  "description": "Tiny Poodll — Composer/Packagist mirror of the Moodle plugin tiny_poodll, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-tiny",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/tiny_poodll",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.3.* || 4.4.* || 4.5.* || 5.0.* || 5.1.* || 5.2.*"
+  },
+  "extra": {
+    "installer-name": "poodll",
+    "moodle-composer": {
+      "component": "tiny_poodll"
+    }
+  }
+}
